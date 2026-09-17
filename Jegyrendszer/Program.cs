@@ -12,6 +12,7 @@ namespace Jegyrendszer
         static List<Jegy> napiUtazasok = new List<Jegy>();
         static void Main(string[] args)
         {
+            //2. Feladat: A Városi Közösségi Közlekedés Jegyrendszere
             napiUtazasok.Add(new Vonalbusz(450, 10));    
             napiUtazasok.Add(new MeteoVonat(450, 20));
             napiUtazasok.Add(new ElektromosRoller(5));
